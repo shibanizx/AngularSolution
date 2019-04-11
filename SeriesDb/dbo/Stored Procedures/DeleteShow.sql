@@ -1,0 +1,8 @@
+﻿CREATE PROCEDURE [dbo].[DeleteShow]
+(
+	@ShowId UNIQUEIDENTIFIER
+)
+AS
+BEGIN
+	DELETE FROM Show WHERE ShowId=@ShowId;
+END
