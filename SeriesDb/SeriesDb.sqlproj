@@ -72,6 +72,6 @@
     <Build Include="dbo\Tables\AudioLanguage.sql" />
     <Build Include="dbo\Stored Procedures\GetAllShows.sql" />
     <Build Include="dbo\Stored Procedures\DeleteShow.sql" />
-    <Build Include="Master Table Entries.sql" />
+    <PostDeploy Include="Master Table Entries.sql" />
   </ItemGroup>
 </Project>

@@ -1,189 +1,216 @@
-﻿INSERT [dbo].[OnlineChannel] ([Id], [Name]) VALUES (N'2ffdc4d5-01d6-43e4-98df-0c2922620e6c', N'HBO')
-INSERT [dbo].[OnlineChannel] ([Id], [Name]) VALUES (N'cf3e2499-3998-4dac-8904-4e4cef3bc4c1', N'Hotstar')
-INSERT [dbo].[OnlineChannel] ([Id], [Name]) VALUES (N'4d47310a-0a05-4aab-a45b-aaa951ad33f0', N'Youtube')
-INSERT [dbo].[OnlineChannel] ([Id], [Name]) VALUES (N'94c89696-ce6d-43f4-9dde-b57fa45b597c', N'Hulu')
-INSERT [dbo].[OnlineChannel] ([Id], [Name]) VALUES (N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'Netflix')
-INSERT [dbo].[OnlineChannel] ([Id], [Name]) VALUES (N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'None')
-INSERT [dbo].[OnlineChannel] ([Id], [Name]) VALUES (N'd026be34-d6da-4a22-a94e-ee2fc0c0a104', N'Amazon Prime Video')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'6f43232c-a328-4cc5-8404-02e6868b7568', N'Vimeo', N'#1A69CD')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'6b0f93b4-9c26-43e6-8606-16f55d3b390a', N'AMC', N'#FB0102')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'fec216fa-80c4-4ea1-b707-1eb8539d5205', N'Discovery Channel', N'#1BAED9')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'5634a3ee-0b67-4eef-846f-1ee444668635', N'MBC', N'#464646')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'6993ba88-3d6b-4c0b-980f-247c210b3369', N'E!', N'#EB2D2F')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'fe9387b7-2f07-4260-8341-2816dbd57a05', N'NBC', N'#8111F1')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'b9e7d2bc-f716-4990-8c07-3b47dfc1b2bb', N'Starz', N'#F29B21')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'886bcb99-dfc5-4fe9-b841-3e427f9ec82e', N'Drama Fever', N'#FD3B5D')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'898d846c-623b-4764-98ad-3f8ddc2920a3', N'Sky Arts', N'#843A3D')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'e868ccd2-cfac-4818-a15b-4845d019d883', N'Channel 4', N'#192D48')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'c2a7a58a-e522-4cdf-beb4-4bae9d7f2776', N'CW', N'#00A936')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'7b9b2ab1-464b-4dd2-b701-5f538694507a', N'CBS', N'#DD8D4B')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'33d33cb8-0f51-4e30-9af2-659702b546ac', N'AXN', N'#ED1B2D')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'43ef2ea6-ee1f-4b29-bed5-665c6c8940ca', N'SBS', N'#3D75FF')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'a5d01bf9-6dfe-4f1a-9342-69d1de89acb2', N'BBC One', N'#000000')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'13738a9e-337d-4734-971c-6a8ace8b9d35', N'TVN', N'#BC0D14')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'8c21bc51-393b-44fd-98f0-7621940b3d13', N'Syndicated', N'#A492CE')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'00e0de9b-eb7f-4cef-85c4-76c6578829e9', N'Netflix', N'#E20912')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'f8276a27-76fe-4097-9fd8-8b7f2460826c', N'FX', N'#F7921C')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'ac34dfd3-950d-4b9a-8611-8f30eb2fcd53', N'TV Tokyo', N'#303670')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'a40b2933-f5b1-4464-90c6-9d127772c7df', N'Fuji TV', N'#EB2D2F')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'7d381744-9834-4337-92a3-9ece6586e339', N'KBS', N'#2449A4')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'312e06ae-a09e-4429-8667-a2a133566628', N'Cartoon Network', N'#C9BF4E')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'e36292f8-742b-4503-b482-a4193360c145', N'Fox', N'#000000')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'59406211-418f-4cbe-bcc3-abfddeda0902', N'HBO', N'#0179C5')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'a0e53dce-13cd-43aa-9dd3-b0782673e251', N'Showtime', N'#E20912')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'ffd9d95e-7228-4e69-8bdd-b14c92c092a0', N'YouTube', N'#E20912')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'439fa17e-2c36-4ee2-839f-b1b657b5652e', N'Sky1', N'#2F71C6')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'7e90eb51-c40d-4e05-85c5-b60b3c1ba544', N'ABC', N'#FFD700')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'b3bea6c5-46c8-4ae0-bf78-b649ca3fd948', N'MTV', N'#F21296')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'db1b2909-2b45-4be0-9fdd-b86221cd4023', N'NTV', N'#000000')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'e853f5de-9db1-42fc-957c-bb9630dc24bb', N'USA Network', N'#D91E25')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'4a239a02-45ca-42c5-a255-c27de22eb338', N'TNT', N'#607022')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'61378810-71c5-4907-b72c-c42233349d05', N'SVT1', N'#5220C9')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'bffba240-ac7d-47e3-847b-c6cf27ada44e', N'Freeform', N'#00AB8E')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'6bd6bcff-3452-435a-bac2-c84a45b33cad', N'Amazon', N'#00A8E1')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'e7b6a90c-839d-4b88-b892-daa159f67208', N'History', N'#D37B22')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'595c06d6-9171-4f1e-b468-ddae84f67d49', N'Hallmark Channel', N'#5A2F9A')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'2bba0029-7663-42cb-bf41-e2ee1b3a8495', N'ITV', N'#193284')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'10293999-b734-4cf6-b4ec-e44d81599215', N'JNN', N'#009944')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'98a2c754-3718-47cf-bcf4-ecbca16caaa8', N'Hulu', N'#1CE783')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'87a476b4-16d6-4268-862e-ef5244d3881c', N'Dice Media', N'#FF6589')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'8c15691c-54db-4ab7-88ac-f2554ee91d77', N'Disney Channel', N'#1A69CD')
-INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'5c2b22a9-2403-4e30-97fb-fa223e97d479', N'Show TV', N'#8111F1')
-SET IDENTITY_INSERT [dbo].[WatchStatus] ON 
-
-INSERT [dbo].[WatchStatus] ([Id], [Status], [ColorCode]) VALUES (1, N'On Going', N'#4FD800')
-INSERT [dbo].[WatchStatus] ([Id], [Status], [ColorCode]) VALUES (2, N'Up-To-Date', N'#00B6FF')
-INSERT [dbo].[WatchStatus] ([Id], [Status], [ColorCode]) VALUES (3, N'Completed', N'#D80000')
-INSERT [dbo].[WatchStatus] ([Id], [Status], [ColorCode]) VALUES (4, N'To Watch', N'#ADAF00')
-SET IDENTITY_INSERT [dbo].[WatchStatus] OFF
-INSERT [dbo].[AudioLanguage] ([Id], [Language]) VALUES (N'bb89f317-d6f0-4207-b434-24f37cdc6d38', N'English')
+﻿INSERT [dbo].[AudioLanguage] ([Id], [Language]) VALUES (N'bb89f317-d6f0-4207-b434-24f37cdc6d38', N'English')
+GO
 INSERT [dbo].[AudioLanguage] ([Id], [Language]) VALUES (N'e98ad40d-e49d-468a-8c89-2802a0e5e204', N'Korean')
+GO
 INSERT [dbo].[AudioLanguage] ([Id], [Language]) VALUES (N'84ebc93e-645f-4375-abc1-2c3afc53ff58', N'Japanese')
+GO
 INSERT [dbo].[AudioLanguage] ([Id], [Language]) VALUES (N'a7ae6946-a8d6-4e88-8531-4d9e0386d8d6', N'German')
+GO
 INSERT [dbo].[AudioLanguage] ([Id], [Language]) VALUES (N'f9c95be6-9028-40b5-bab4-95b8398be8c9', N'Hindi')
+GO
 INSERT [dbo].[AudioLanguage] ([Id], [Language]) VALUES (N'8b0e4399-94e9-42ba-92ef-9a73bc49a0d6', N'Spanish')
+GO
 INSERT [dbo].[AudioLanguage] ([Id], [Language]) VALUES (N'b842ca46-bc57-4681-8373-da9f2881ffe9', N'Turkish')
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'41deea98-a115-4172-5fe4-08d693459cc7', N'The West Wing', N'fe9387b7-2f07-4260-8341-2816dbd57a05', 1, N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 7, N'27,14', 156, NULL, 42, CAST(N'2019-02-15 13:00:45.340' AS DateTime), CAST(N'2019-02-15 12:59:19.113' AS DateTime), 4, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'9e9ca0f7-b9b1-4410-1ed7-08d697163add', N'24', N'e36292f8-742b-4503-b482-a4193360c145', 4, N'cf3e2499-3998-4dac-8904-4e4cef3bc4c1', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 9, N'2,17,27,28', 204, NULL, 43, CAST(N'2019-02-20 09:30:31.087' AS DateTime), CAST(N'2019-02-20 09:30:31.087' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'81ae42a6-5d99-4dbb-dc27-08d697cd2314', N'11.22.63', N'98a2c754-3718-47cf-bcf4-ecbca16caaa8', 3, N'94c89696-ce6d-43f4-9dde-b57fa45b597c', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 1, N'2,15,17,26,27', 8, NULL, 70, CAST(N'2019-02-21 07:16:37.943' AS DateTime), CAST(N'2019-04-11 12:05:55.493' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'5589714c-ecc7-40c2-dc28-08d697cd2314', N'13 Reasons Why', N'00e0de9b-eb7f-4cef-85c4-76c6578829e9', 2, N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 2, N'2,16,27', 26, NULL, 60, CAST(N'2019-02-21 07:21:43.527' AS DateTime), CAST(N'2019-02-21 07:21:43.527' AS DateTime), 4, 1)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'854ef061-a9ae-484c-dc29-08d697cd2314', N'2 Broke Girls', N'7b9b2ab1-464b-4dd2-b701-5f538694507a', 3, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 6, N'20,21,34', 138, NULL, 20, CAST(N'2019-02-21 07:23:30.163' AS DateTime), CAST(N'2019-04-11 12:06:41.090' AS DateTime), 2, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'6e98d1b7-73e5-4d98-dc2a-08d697cd2314', N'49 Days', N'43ef2ea6-ee1f-4b29-bed5-665c6c8940ca', 3, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'e98ad40d-e49d-468a-8c89-2802a0e5e204', 1, 1, N'2,20,27,29', 20, NULL, 60, CAST(N'2019-02-21 07:29:54.733' AS DateTime), CAST(N'2019-04-15 11:16:30.503' AS DateTime), 4, 1)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'34a899ce-b894-462e-dc2b-08d697cd2314', N'90210', N'7b9b2ab1-464b-4dd2-b701-5f538694507a', 4, N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 5, N'16,20', 114, NULL, 42, CAST(N'2019-02-21 07:31:15.360' AS DateTime), CAST(N'2019-02-21 07:31:15.360' AS DateTime), 1, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'5ede70a6-9577-4633-dc2c-08d697cd2314', N'9-1-1', N'e36292f8-742b-4503-b482-a4193360c145', 4, N'cf3e2499-3998-4dac-8904-4e4cef3bc4c1', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 2, N'3,13', 20, NULL, 41, CAST(N'2019-02-21 07:33:17.450' AS DateTime), CAST(N'2019-02-21 07:33:17.450' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'30912ac5-7c26-487d-dc2d-08d697cd2314', N'A Series Of Unfortunate Events', N'00e0de9b-eb7f-4cef-85c4-76c6578829e9', 4, N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 3, N'2,18,19', 18, NULL, 60, CAST(N'2019-02-21 07:35:50.757' AS DateTime), CAST(N'2019-02-21 07:35:50.757' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'82aa73cf-0764-418c-dc2e-08d697cd2314', N'A Young Doctor''s Notebook', N'898d846c-623b-4764-98ad-3f8ddc2920a3', 3, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 2, N'2,8,18,19,34', 8, NULL, 30, CAST(N'2019-02-21 07:37:56.557' AS DateTime), CAST(N'2019-04-15 11:17:02.787' AS DateTime), 1, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'2ab00522-6c78-4b87-8488-08d697e452da', N'Adulting', N'87a476b4-16d6-4268-862e-ef5244d3881c', 2, N'4d47310a-0a05-4aab-a45b-aaa951ad33f0', N'f9c95be6-9028-40b5-bab4-95b8398be8c9', 0, 1, N'2,21,34', 5, NULL, 15, CAST(N'2019-02-21 10:03:19.230' AS DateTime), CAST(N'2019-04-15 11:17:33.610' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'4f6ae768-5107-40bc-8489-08d697e452da', N'Alias', N'7e90eb51-c40d-4e05-85c5-b60b3c1ba544', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 5, N'2,17,27,28', 105, NULL, 41, CAST(N'2019-02-21 10:07:53.423' AS DateTime), CAST(N'2019-02-21 10:07:53.423' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'6a498ec8-1361-4a57-0b0e-08d6a1fd5c36', N'Almost Human', N'e36292f8-742b-4503-b482-a4193360c145', 3, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 1, N'8,14,15', 13, NULL, 41, CAST(N'2019-03-06 06:29:12.170' AS DateTime), CAST(N'2019-03-06 06:29:12.170' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'3b52e90a-d8d4-4d04-0b0f-08d6a1fd5c36', N'Altered Carbon', N'00e0de9b-eb7f-4cef-85c4-76c6578829e9', 4, N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 1, N'3,15,17,28,30,31', 10, NULL, 60, CAST(N'2019-03-06 06:34:25.570' AS DateTime), CAST(N'2019-04-10 09:59:01.880' AS DateTime), 4, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'6a8473e2-a92a-4816-6c2e-08d6a20cbe06', N'American Crime Story', N'f8276a27-76fe-4097-9fd8-8b7f2460826c', 2, N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 2, N'2,24,26,28', 20, NULL, 60, CAST(N'2019-03-06 08:16:34.637' AS DateTime), CAST(N'2019-03-06 08:16:34.637' AS DateTime), 3, 1)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'e513f544-fecb-4ea7-6c2f-08d6a20cbe06', N'And Then There Were None', N'a5d01bf9-6dfe-4f1a-9342-69d1de89acb2', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 1, N'2,17,26,27,29', 3, NULL, 60, CAST(N'2019-03-06 08:29:39.343' AS DateTime), CAST(N'2019-03-06 08:29:39.343' AS DateTime), 5, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'c9fd8862-1cd2-4297-6c30-08d6a20cbe06', N'Arrow', N'c2a7a58a-e522-4cdf-beb4-4bae9d7f2776', 1, N'cf3e2499-3998-4dac-8904-4e4cef3bc4c1', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 6, N'2,3,8,28,29,32', 152, NULL, 41, CAST(N'2019-03-06 08:33:32.727' AS DateTime), CAST(N'2019-03-06 08:33:32.727' AS DateTime), 2, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'26e2cd49-bd6f-4a6c-6c31-08d6a20cbe06', N'Ask Laftan Anlamaz', N'5c2b22a9-2403-4e30-97fb-fa223e97d479', 3, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'b842ca46-bc57-4681-8373-da9f2881ffe9', 1, 1, N'2,20,34', 31, NULL, 150, CAST(N'2019-03-06 08:37:26.097' AS DateTime), CAST(N'2019-04-15 11:20:39.817' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'43a5354e-e37c-46c0-6c32-08d6a20cbe06', N'Atlanta', N'f8276a27-76fe-4097-9fd8-8b7f2460826c', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 2, N'18', 21, NULL, 30, CAST(N'2019-03-06 08:40:23.880' AS DateTime), CAST(N'2019-03-06 08:40:23.880' AS DateTime), 2, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'cdd0d086-4410-4c08-6c33-08d6a20cbe06', N'Atypical', N'00e0de9b-eb7f-4cef-85c4-76c6578829e9', 4, N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 1, N'2,18', 8, NULL, 30, CAST(N'2019-03-06 08:41:21.703' AS DateTime), CAST(N'2019-03-06 08:41:21.703' AS DateTime), 2, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'53b1bafb-9730-4a2c-6c34-08d6a20cbe06', N'Baby Daddy', N'bffba240-ac7d-47e3-847b-c6cf27ada44e', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 6, N'21,34', 100, NULL, 21, CAST(N'2019-03-06 08:42:47.723' AS DateTime), CAST(N'2019-04-15 11:21:00.000' AS DateTime), 2, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'd75f237e-d1fa-4464-1b23-08d6a211467e', N'Baskets', N'f8276a27-76fe-4097-9fd8-8b7f2460826c', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 3, N'18,19', 30, NULL, 30, CAST(N'2019-03-06 08:52:17.183' AS DateTime), CAST(N'2019-03-06 08:52:17.183' AS DateTime), 2, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'9216be6c-2bc7-4790-fef8-08d6a211c906', N'Backstrom', N'e36292f8-742b-4503-b482-a4193360c145', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 1, N'2,18,28', 13, NULL, 40, CAST(N'2019-03-06 08:55:57.213' AS DateTime), CAST(N'2019-03-06 08:55:57.213' AS DateTime), 2, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'a7be7af0-65d3-485a-fef9-08d6a211c906', N'Beauty And The Beast', N'c2a7a58a-e522-4cdf-beb4-4bae9d7f2776', 3, N'cf3e2499-3998-4dac-8904-4e4cef3bc4c1', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 4, N'2,6,8,13,28', 70, NULL, 40, CAST(N'2019-03-06 08:55:57.213' AS DateTime), CAST(N'2019-04-15 11:22:52.230' AS DateTime), 2, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'e14990e2-3409-4540-fefa-08d6a211c906', N'Believe', N'fe9387b7-2f07-4260-8341-2816dbd57a05', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 1, N'2,8,15', 13, NULL, 40, CAST(N'2019-03-06 08:55:57.213' AS DateTime), CAST(N'2019-03-06 08:55:57.213' AS DateTime), 2, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'5de06d24-bfcd-489a-fefb-08d6a211c906', N'Better Things', N'f8276a27-76fe-4097-9fd8-8b7f2460826c', 4, N'cf3e2499-3998-4dac-8904-4e4cef3bc4c1', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 2, N'18,19,21', 20, NULL, 30, CAST(N'2019-03-06 09:03:59.580' AS DateTime), CAST(N'2019-03-06 09:03:59.580' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'a3eba805-9d69-4c3c-fefc-08d6a211c906', N'Big Little Lies', N'59406211-418f-4cbe-bcc3-abfddeda0902', 2, N'cf3e2499-3998-4dac-8904-4e4cef3bc4c1', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 1, N'2,17,27,28,29', 7, NULL, 60, CAST(N'2019-03-06 09:06:41.207' AS DateTime), CAST(N'2019-03-06 09:06:41.207' AS DateTime), 5, 1)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'd5e3e3df-46e6-4a8a-fefd-08d6a211c906', N'Absentia', N'33d33cb8-0f51-4e30-9af2-659702b546ac', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 1, N'2,17,28,29', 10, NULL, 40, CAST(N'2019-03-06 09:06:41.207' AS DateTime), CAST(N'2019-03-06 09:06:41.207' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'b00ca922-4b68-4cd2-fefe-08d6a211c906', N'Billions', N'a0e53dce-13cd-43aa-9dd3-b0782673e251', 4, N'cf3e2499-3998-4dac-8904-4e4cef3bc4c1', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 3, N'2', 36, NULL, 60, CAST(N'2019-03-06 09:06:41.207' AS DateTime), CAST(N'2019-03-06 09:06:41.207' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'25f518fd-cc81-448e-feff-08d6a211c906', N'Black Mirror', N'00e0de9b-eb7f-4cef-85c4-76c6578829e9', 2, N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 4, N'2,15,19,24,28', 19, NULL, 60, CAST(N'2019-03-06 09:06:41.207' AS DateTime), CAST(N'2019-03-06 09:06:41.207' AS DateTime), 5, 1)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'b17cff68-f707-4b7c-06ea-08d6a2170f52', N'Black-ish', N'7e90eb51-c40d-4e05-85c5-b60b3c1ba544', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 5, N'21', 109, NULL, 20, CAST(N'2019-03-06 09:33:34.617' AS DateTime), CAST(N'2019-03-06 09:33:34.617' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'07b2391f-ef44-4987-06eb-08d6a2170f52', N'Blindspot', N'fe9387b7-2f07-4260-8341-2816dbd57a05', 1, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 3, N'2,3,28,29', 66, NULL, 40, CAST(N'2019-03-06 09:33:34.617' AS DateTime), CAST(N'2019-03-06 09:33:34.617' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'ff449439-d08b-4e2e-06ec-08d6a2170f52', N'Bones', N'e36292f8-742b-4503-b482-a4193360c145', 1, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 12, N'2,6,12,13', 246, NULL, 40, CAST(N'2019-03-06 09:33:34.617' AS DateTime), CAST(N'2019-04-15 11:53:51.840' AS DateTime), 4, 1)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'4586b1b1-1359-4216-06ed-08d6a2170f52', N'Boys Over Flowers', N'7d381744-9834-4337-92a3-9ece6586e339', 3, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'e98ad40d-e49d-468a-8c89-2802a0e5e204', 1, 1, N'2,20', 25, NULL, 60, CAST(N'2019-03-06 09:33:34.617' AS DateTime), CAST(N'2019-03-06 09:33:34.617' AS DateTime), 1, 1)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'f0ad6878-3265-4712-c80c-08d6a5dfdd30', N'Breaking Bad', N'6b0f93b4-9c26-43e6-8606-16f55d3b390a', 3, N'cf3e2499-3998-4dac-8904-4e4cef3bc4c1', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 5, N'2,17,28,30', 62, NULL, 62, CAST(N'2019-03-11 05:08:28.573' AS DateTime), CAST(N'2019-03-11 05:08:28.573' AS DateTime), 5, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'98fb370a-2992-410a-c80d-08d6a5dfdd30', N'Breathe', N'6bd6bcff-3452-435a-bac2-c84a45b33cad', 4, N'd026be34-d6da-4a22-a94e-ee2fc0c0a104', N'f9c95be6-9028-40b5-bab4-95b8398be8c9', 0, 1, N'2,17,28', 8, NULL, 40, CAST(N'2019-03-11 05:10:27.887' AS DateTime), CAST(N'2019-03-11 05:10:27.887' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'7cfa7083-8a8b-4d11-c80e-08d6a5dfdd30', N'Broadchurch', N'2bba0029-7663-42cb-bf41-e2ee1b3a8495', 4, N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 3, N'2,27,28,29', 24, NULL, 45, CAST(N'2019-03-11 05:12:15.063' AS DateTime), CAST(N'2019-03-11 05:12:15.063' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'290fcdf1-0501-4370-c80f-08d6a5dfdd30', N'Brooklyn Nine-Nine', N'fe9387b7-2f07-4260-8341-2816dbd57a05', 1, N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 6, N'21', 120, NULL, 21, CAST(N'2019-03-11 05:13:55.260' AS DateTime), CAST(N'2019-04-11 08:03:18.937' AS DateTime), 5, 1)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'76163c29-8352-49e9-c810-08d6a5dfdd30', N'Castle', N'7e90eb51-c40d-4e05-85c5-b60b3c1ba544', 3, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 8, N'2,3,6,13,28', 173, NULL, 40, CAST(N'2019-03-11 05:15:14.057' AS DateTime), CAST(N'2019-03-11 05:15:14.057' AS DateTime), 4, 1)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'5411f4be-b9a0-4e65-ddff-08d6a5e7567f', N'Catastrophe', N'e868ccd2-cfac-4818-a15b-4845d019d883', 4, N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 3, N'21', 24, NULL, 25, CAST(N'2019-03-11 05:58:16.353' AS DateTime), CAST(N'2019-03-11 05:58:16.353' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'000aa885-c454-41ef-de00-08d6a5e7567f', N'Charlie''s Angels', N'7e90eb51-c40d-4e05-85c5-b60b3c1ba544', 3, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 1, N'3,6,29', 8, NULL, 40, CAST(N'2019-03-11 06:03:57.230' AS DateTime), CAST(N'2019-03-11 06:03:57.230' AS DateTime), 1, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'149f01a8-ff04-4724-de01-08d6a5e7567f', N'Chicago Fire', N'fe9387b7-2f07-4260-8341-2816dbd57a05', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 7, N'2,3', 152, NULL, 40, CAST(N'2019-03-11 06:05:39.457' AS DateTime), CAST(N'2019-03-11 06:05:39.457' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'e31a5b84-bfea-47a2-c139-08d6aa9d999f', N'Chicago Justice', N'fe9387b7-2f07-4260-8341-2816dbd57a05', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 1, N'11', 13, NULL, 41, CAST(N'2019-03-17 05:57:07.987' AS DateTime), CAST(N'2019-03-17 05:57:07.987' AS DateTime), 2, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'a0059d2b-5ed2-4d72-c13a-08d6aa9d999f', N'Chicago Med', N'fe9387b7-2f07-4260-8341-2816dbd57a05', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 4, N'12', 77, NULL, 40, CAST(N'2019-03-17 05:58:42.553' AS DateTime), CAST(N'2019-03-17 05:58:42.553' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'987642d0-4a64-40f8-c13b-08d6aa9d999f', N'Chicago P.D', N'fe9387b7-2f07-4260-8341-2816dbd57a05', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 7, N'2,13', 122, NULL, 41, CAST(N'2019-03-17 06:00:26.460' AS DateTime), CAST(N'2019-03-17 06:00:26.460' AS DateTime), 4, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'81276656-4b2e-47e1-c13c-08d6aa9d999f', N'City Hunter', N'43ef2ea6-ee1f-4b29-bed5-665c6c8940ca', 3, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'e98ad40d-e49d-468a-8c89-2802a0e5e204', 1, 1, N'2,3,17,20,29', 16, NULL, 60, CAST(N'2019-03-17 06:02:12.823' AS DateTime), CAST(N'2019-03-17 06:02:12.823' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'653d42a3-e6cf-4c29-c13d-08d6aa9d999f', N'Claws', N'4a239a02-45ca-42c5-a255-c27de22eb338', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 2, N'2,18,28', 20, NULL, 20, CAST(N'2019-03-17 06:02:12.823' AS DateTime), CAST(N'2019-03-17 06:02:12.823' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'934a74cf-0cc1-485e-3580-08d6be5fb9e2', N'Community', N'fe9387b7-2f07-4260-8341-2816dbd57a05', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 6, N'21', 110, NULL, 20, CAST(N'2019-04-11 09:24:54.370' AS DateTime), CAST(N'2019-04-11 09:24:54.370' AS DateTime), 4, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'132922a0-1f29-4cd7-03c4-08d6be6fee4d', N'Constantine', N'c2a7a58a-e522-4cdf-beb4-4bae9d7f2776', 3, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 1, N'2,8,10,17,34', 13, NULL, 41, CAST(N'2019-04-11 11:19:00.817' AS DateTime), CAST(N'2019-04-15 11:22:04.730' AS DateTime), 4, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'67e4d986-15cf-46e6-03c5-08d6be6fee4d', N'Criminal Minds', N'7b9b2ab1-464b-4dd2-b701-5f538694507a', 1, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 14, N'3,13,17,27,28', 314, NULL, 41, CAST(N'2019-04-11 11:22:12.587' AS DateTime), CAST(N'2019-04-11 11:22:12.587' AS DateTime), 4, 1)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'db045040-d600-4ff5-03c6-08d6be6fee4d', N'Criminal Minds: Beyond Borders', N'7b9b2ab1-464b-4dd2-b701-5f538694507a', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 2, N'2,13,17,27,28', 26, NULL, 40, CAST(N'2019-04-11 11:26:01.467' AS DateTime), CAST(N'2019-04-11 11:26:01.467' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'e50b4469-38b0-4f5a-03c7-08d6be6fee4d', N'Criminal Minds: Suspect Behaviour', N'7b9b2ab1-464b-4dd2-b701-5f538694507a', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 1, N'13,27,28', 13, NULL, 40, CAST(N'2019-04-11 11:27:54.970' AS DateTime), CAST(N'2019-04-11 11:27:54.970' AS DateTime), 2, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'ccddb48b-2616-4e57-03c8-08d6be6fee4d', N'Dark', N'00e0de9b-eb7f-4cef-85c4-76c6578829e9', 4, N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'a7ae6946-a8d6-4e88-8531-4d9e0386d8d6', 0, 1, N'2,15,17', 10, NULL, 60, CAST(N'2019-04-11 11:29:32.443' AS DateTime), CAST(N'2019-04-11 11:29:32.443' AS DateTime), 4, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'd38f667c-2d20-4404-03c9-08d6be6fee4d', N'Dawson''s Creek', N'c2a7a58a-e522-4cdf-beb4-4bae9d7f2776', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 6, N'16,20', 128, NULL, 40, CAST(N'2019-04-11 11:30:53.643' AS DateTime), CAST(N'2019-04-11 11:30:53.643' AS DateTime), 2, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'b7f7ede5-e56f-48d0-03ca-08d6be6fee4d', N'DC''s Legends Of Tomorrow', N'c2a7a58a-e522-4cdf-beb4-4bae9d7f2776', 1, N'cf3e2499-3998-4dac-8904-4e4cef3bc4c1', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 4, N'2,8,17,28,29,32', 66, NULL, 40, CAST(N'2019-04-11 11:32:02.360' AS DateTime), CAST(N'2019-04-15 11:22:43.147' AS DateTime), 1, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'00b47a65-234e-4191-03cb-08d6be6fee4d', N'Death Note', N'db1b2909-2b45-4be0-9fdd-b86221cd4023', 3, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'84ebc93e-645f-4375-abc1-2c3afc53ff58', 1, 1, N'2,8,17,26,27,29', 37, NULL, 20, CAST(N'2019-04-11 11:34:31.503' AS DateTime), CAST(N'2019-04-11 11:34:31.503' AS DateTime), 5, 1)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'1219163c-edf9-41ec-03cc-08d6be6fee4d', N'Deception', N'7e90eb51-c40d-4e05-85c5-b60b3c1ba544', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 1, N'2,28', 13, NULL, 40, CAST(N'2019-04-11 11:36:52.793' AS DateTime), CAST(N'2019-04-11 11:36:52.793' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'5f33f93c-273e-424b-03cd-08d6be6fee4d', N'Designated Survivor', N'7e90eb51-c40d-4e05-85c5-b60b3c1ba544', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 2, N'14,17', 43, NULL, 40, CAST(N'2019-04-11 11:37:58.683' AS DateTime), CAST(N'2019-04-11 11:37:58.683' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'c44a107a-3eff-42a9-03ce-08d6be6fee4d', N'Desperate Housewives', N'7e90eb51-c40d-4e05-85c5-b60b3c1ba544', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 8, N'2,18,29', 180, NULL, 40, CAST(N'2019-04-11 11:39:29.577' AS DateTime), CAST(N'2019-04-11 11:39:29.577' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'ad3011fa-0bcb-469b-03cf-08d6be6fee4d', N'Dexter', N'a0e53dce-13cd-43aa-9dd3-b0782673e251', 3, N'cf3e2499-3998-4dac-8904-4e4cef3bc4c1', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 8, N'2,17,27,28,29', 96, NULL, 60, CAST(N'2019-04-11 11:40:53.447' AS DateTime), CAST(N'2019-04-11 11:40:53.447' AS DateTime), 4, 1)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'dfa1b065-73d9-455e-03d0-08d6be6fee4d', N'Doctor Who', N'a5d01bf9-6dfe-4f1a-9342-69d1de89acb2', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 11, N'2,15', 287, NULL, 41, CAST(N'2019-04-11 11:42:45.033' AS DateTime), CAST(N'2019-04-11 11:42:45.033' AS DateTime), 4, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'fd4bbba2-7b2d-4437-03d1-08d6be6fee4d', N'Dollhouse', N'e36292f8-742b-4503-b482-a4193360c145', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 2, N'15,17,27,31', 26, NULL, 40, CAST(N'2019-04-11 11:47:35.860' AS DateTime), CAST(N'2019-04-11 11:47:35.860' AS DateTime), 2, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'8588cc62-8868-4fc3-03d2-08d6be6fee4d', N'Don''t Trust The B**** In Apartment 23', N'7e90eb51-c40d-4e05-85c5-b60b3c1ba544', 3, N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 2, N'21,34', 26, NULL, 20, CAST(N'2019-04-11 11:51:49.737' AS DateTime), CAST(N'2019-04-15 11:53:25.847' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'672a5550-3282-4925-03d3-08d6be6fee4d', N'Downton Abbey', N'2bba0029-7663-42cb-bf41-e2ee1b3a8495', 3, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 6, N'2,9', 52, NULL, 60, CAST(N'2019-04-11 11:53:16.170' AS DateTime), CAST(N'2019-04-11 11:53:16.170' AS DateTime), 5, 1)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'0578cafa-134e-48eb-03d4-08d6be6fee4d', N'Dream High', N'7d381744-9834-4337-92a3-9ece6586e339', 3, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'e98ad40d-e49d-468a-8c89-2802a0e5e204', 1, 2, N'2,20,27', 26, NULL, 60, CAST(N'2019-04-11 11:54:14.307' AS DateTime), CAST(N'2019-04-15 11:53:14.537' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'cd158d60-b6ee-4bec-03d5-08d6be6fee4d', N'Elementary', N'7b9b2ab1-464b-4dd2-b701-5f538694507a', 2, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 7, N'6,13,28,29', 141, NULL, 40, CAST(N'2019-04-11 11:55:08.870' AS DateTime), CAST(N'2019-04-15 11:22:21.720' AS DateTime), 4, 1)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'c7d73220-561f-43cc-17bb-08d6c199deb4', N'Empire', N'e36292f8-742b-4503-b482-a4193360c145', 1, N'cf3e2499-3998-4dac-8904-4e4cef3bc4c1', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 5, N'2,27,33', 80, NULL, 40, CAST(N'2019-04-15 11:59:00.353' AS DateTime), CAST(N'2019-04-15 11:59:00.353' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'5b189dbb-56b5-4999-17bc-08d6c199deb4', N'Evil Genius: The True Story of America''s Most Diabolical Bank Heist', N'00e0de9b-eb7f-4cef-85c4-76c6578829e9', 4, N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 1, N'28,38', 4, NULL, 60, CAST(N'2019-04-15 12:01:02.673' AS DateTime), CAST(N'2019-04-15 12:01:02.673' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'13d8d3ca-5c28-4a44-17bd-08d6c199deb4', N'Famous In Love', N'bffba240-ac7d-47e3-847b-c6cf27ada44e', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 2, N'2,16', 20, NULL, 40, CAST(N'2019-04-15 12:02:01.293' AS DateTime), CAST(N'2019-04-15 12:02:01.293' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'f52dfca6-90e2-4045-17be-08d6c199deb4', N'Fargo', N'f8276a27-76fe-4097-9fd8-8b7f2460826c', 4, N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 3, N'2,24,28,39', 30, NULL, 60, CAST(N'2019-04-15 12:14:32.697' AS DateTime), CAST(N'2019-04-15 12:14:32.697' AS DateTime), 4, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'ef2d598a-b621-45c0-17bf-08d6c199deb4', N'For The People', N'7e90eb51-c40d-4e05-85c5-b60b3c1ba544', 1, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 0, 2, N'5,11', 16, NULL, 40, CAST(N'2019-04-15 12:15:52.930' AS DateTime), CAST(N'2019-04-15 12:15:52.930' AS DateTime), 2, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'62c7860a-37ba-4e9b-17c0-08d6c199deb4', N'Forever', N'7e90eb51-c40d-4e05-85c5-b60b3c1ba544', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 1, N'2,8,12,28', 22, NULL, 40, CAST(N'2019-04-15 12:17:35.267' AS DateTime), CAST(N'2019-04-15 12:17:35.267' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'2bafc9b7-c9da-4899-8748-08d6c2694983', N'Friends', N'fe9387b7-2f07-4260-8341-2816dbd57a05', 3, N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 10, N'20,21,34', 236, NULL, 20, CAST(N'2019-04-16 12:43:48.650' AS DateTime), CAST(N'2019-04-16 12:43:48.650' AS DateTime), 5, 1)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'22532215-16d9-4146-8749-08d6c2694983', N'Fringe', N'e36292f8-742b-4503-b482-a4193360c145', 4, N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 5, N'15,40', 100, NULL, 40, CAST(N'2019-04-16 12:54:52.980' AS DateTime), CAST(N'2019-04-16 12:54:52.980' AS DateTime), 4, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'a30bab64-6d02-45b9-874a-08d6c2694983', N'Fullmetal Alchemist: Brotherhood', N'10293999-b734-4cf6-b4ec-e44d81599215', 3, N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'84ebc93e-645f-4375-abc1-2c3afc53ff58', 1, 1, N'4,8,10,15', 64, NULL, 20, CAST(N'2019-04-16 12:55:40.693' AS DateTime), CAST(N'2019-04-16 12:55:40.693' AS DateTime), 5, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'5c581bb0-3be8-460c-874b-08d6c2694983', N'Game Of Thrones', N'59406211-418f-4cbe-bcc3-abfddeda0902', 2, N'2ffdc4d5-01d6-43e4-98df-0c2922620e6c', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 8, N'3,4,8,9,10,17,27,40', 73, NULL, 75, CAST(N'2019-04-16 13:00:10.733' AS DateTime), CAST(N'2019-04-16 13:00:10.733' AS DateTime), 5, 1)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'b26dc7e3-4826-488a-874c-08d6c2694983', N'Gilmore Girls', N'c2a7a58a-e522-4cdf-beb4-4bae9d7f2776', 4, N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 7, N'41', 153, NULL, 40, CAST(N'2019-04-16 13:10:50.210' AS DateTime), CAST(N'2019-04-16 13:10:50.210' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'210c9f7e-7402-434c-874d-08d6c2694983', N'Girlboss', N'00e0de9b-eb7f-4cef-85c4-76c6578829e9', 4, N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 1, N'34', 13, NULL, 30, CAST(N'2019-04-16 13:12:21.303' AS DateTime), CAST(N'2019-04-16 13:12:21.303' AS DateTime), 2, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'cca7d08d-5c91-4e54-874e-08d6c2694983', N'Girls', N'59406211-418f-4cbe-bcc3-abfddeda0902', 4, N'2ffdc4d5-01d6-43e4-98df-0c2922620e6c', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 6, N'18,34', 62, NULL, 30, CAST(N'2019-04-16 13:14:03.347' AS DateTime), CAST(N'2019-04-16 13:14:03.347' AS DateTime), 3, 0)
-INSERT [dbo].[Show] ([ShowId], [ShowName], [ProductionHouseId], [StatusId], [OnlineChannelId], [LanguageId], [Ended], [NumberOfSeasons], [Genre], [TotalEpisodes], [Remarks], [EpisodeLength], [AddedOn], [ModifiedOn], [Rating], [Favorite]) VALUES (N'abd0a7bd-a1f2-4111-874f-08d6c2694983', N'Glee', N'e36292f8-742b-4503-b482-a4193360c145', 4, N'cf3e2499-3998-4dac-8904-4e4cef3bc4c1', N'bb89f317-d6f0-4207-b434-24f37cdc6d38', 1, 6, N'2,16,20,33,34', 121, NULL, 40, CAST(N'2019-04-16 13:16:20.257' AS DateTime), CAST(N'2019-04-16 13:16:20.257' AS DateTime), 3, 0)
+GO
 SET IDENTITY_INSERT [dbo].[Genre] ON 
 
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (1, N'Animation')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (2, N'Drama')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (3, N'Action')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (4, N'Adventure')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (5, N'Courtroom Drama')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (6, N'Detective Fiction')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (7, N'Docudrama')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (8, N'Fantasy')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (9, N'Historical Period Drama')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (10, N'Horror')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (11, N'Legal Drama')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (12, N'Medical Drama')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (13, N'Police Procedural')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (14, N'Political Drama')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (15, N'Science Fiction')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (16, N'Teen Drama')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (17, N'Thriller')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (18, N'Dramedy')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (19, N'Satire')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (20, N'Romance')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (21, N'Sit-Com')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (22, N'Stand-up Comedy')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (23, N'Talk Show')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (24, N'Anthology')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (25, N'Children')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (26, N'Miniseries')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (27, N'Serial')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (28, N'Crime Thriller')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (29, N'Mystery')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (30, N'Neo-noir')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (31, N'Cyberpunk')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (32, N'Superhero')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (33, N'Musical')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (34, N'Comedy')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (35, N'Animated Series')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (36, N'Mockumentary')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (37, N'Soap Opera')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (38, N'True Crime')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (39, N'Dark Comedy')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (40, N'Supernatural')
+GO
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES (41, N'Family Drama')
+GO
 SET IDENTITY_INSERT [dbo].[Genre] OFF
+GO
+INSERT [dbo].[OnlineChannel] ([Id], [Name]) VALUES (N'2ffdc4d5-01d6-43e4-98df-0c2922620e6c', N'HBO')
+GO
+INSERT [dbo].[OnlineChannel] ([Id], [Name]) VALUES (N'cf3e2499-3998-4dac-8904-4e4cef3bc4c1', N'Hotstar')
+GO
+INSERT [dbo].[OnlineChannel] ([Id], [Name]) VALUES (N'4d47310a-0a05-4aab-a45b-aaa951ad33f0', N'Youtube')
+GO
+INSERT [dbo].[OnlineChannel] ([Id], [Name]) VALUES (N'94c89696-ce6d-43f4-9dde-b57fa45b597c', N'Hulu')
+GO
+INSERT [dbo].[OnlineChannel] ([Id], [Name]) VALUES (N'52c1b02f-a8a2-45df-b4ef-c764473fceb2', N'Netflix')
+GO
+INSERT [dbo].[OnlineChannel] ([Id], [Name]) VALUES (N'a27b7db2-fb00-42b7-a2c8-e3ba7aed3a10', N'None')
+GO
+INSERT [dbo].[OnlineChannel] ([Id], [Name]) VALUES (N'd026be34-d6da-4a22-a94e-ee2fc0c0a104', N'Amazon Prime Video')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'6f43232c-a328-4cc5-8404-02e6868b7568', N'Vimeo', N'#1A69CD')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'6b0f93b4-9c26-43e6-8606-16f55d3b390a', N'AMC', N'#FB0102')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'fec216fa-80c4-4ea1-b707-1eb8539d5205', N'Discovery Channel', N'#1BAED9')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'5634a3ee-0b67-4eef-846f-1ee444668635', N'MBC', N'#464646')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'6993ba88-3d6b-4c0b-980f-247c210b3369', N'E!', N'#EB2D2F')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'fe9387b7-2f07-4260-8341-2816dbd57a05', N'NBC', N'#8111F1')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'b9e7d2bc-f716-4990-8c07-3b47dfc1b2bb', N'Starz', N'#F29B21')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'886bcb99-dfc5-4fe9-b841-3e427f9ec82e', N'Drama Fever', N'#FD3B5D')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'898d846c-623b-4764-98ad-3f8ddc2920a3', N'Sky Arts', N'#843A3D')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'e868ccd2-cfac-4818-a15b-4845d019d883', N'Channel 4', N'#192D48')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'c2a7a58a-e522-4cdf-beb4-4bae9d7f2776', N'CW', N'#00A936')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'7b9b2ab1-464b-4dd2-b701-5f538694507a', N'CBS', N'#DD8D4B')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'33d33cb8-0f51-4e30-9af2-659702b546ac', N'AXN', N'#ED1B2D')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'43ef2ea6-ee1f-4b29-bed5-665c6c8940ca', N'SBS', N'#3D75FF')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'a5d01bf9-6dfe-4f1a-9342-69d1de89acb2', N'BBC One', N'#000000')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'13738a9e-337d-4734-971c-6a8ace8b9d35', N'TVN', N'#BC0D14')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'8c21bc51-393b-44fd-98f0-7621940b3d13', N'Syndicated', N'#A492CE')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'00e0de9b-eb7f-4cef-85c4-76c6578829e9', N'Netflix', N'#E20912')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'f8276a27-76fe-4097-9fd8-8b7f2460826c', N'FX', N'#F7921C')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'ac34dfd3-950d-4b9a-8611-8f30eb2fcd53', N'TV Tokyo', N'#303670')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'a40b2933-f5b1-4464-90c6-9d127772c7df', N'Fuji TV', N'#EB2D2F')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'7d381744-9834-4337-92a3-9ece6586e339', N'KBS', N'#2449A4')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'312e06ae-a09e-4429-8667-a2a133566628', N'Cartoon Network', N'#C9BF4E')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'e36292f8-742b-4503-b482-a4193360c145', N'Fox', N'#000000')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'59406211-418f-4cbe-bcc3-abfddeda0902', N'HBO', N'#0179C5')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'a0e53dce-13cd-43aa-9dd3-b0782673e251', N'Showtime', N'#E20912')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'ffd9d95e-7228-4e69-8bdd-b14c92c092a0', N'YouTube', N'#E20912')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'439fa17e-2c36-4ee2-839f-b1b657b5652e', N'Sky1', N'#2F71C6')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'7e90eb51-c40d-4e05-85c5-b60b3c1ba544', N'ABC', N'#FFD700')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'b3bea6c5-46c8-4ae0-bf78-b649ca3fd948', N'MTV', N'#F21296')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'db1b2909-2b45-4be0-9fdd-b86221cd4023', N'NTV', N'#000000')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'e853f5de-9db1-42fc-957c-bb9630dc24bb', N'USA Network', N'#D91E25')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'4a239a02-45ca-42c5-a255-c27de22eb338', N'TNT', N'#607022')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'61378810-71c5-4907-b72c-c42233349d05', N'SVT1', N'#5220C9')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'bffba240-ac7d-47e3-847b-c6cf27ada44e', N'Freeform', N'#00AB8E')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'6bd6bcff-3452-435a-bac2-c84a45b33cad', N'Amazon', N'#00A8E1')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'e7b6a90c-839d-4b88-b892-daa159f67208', N'History', N'#D37B22')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'595c06d6-9171-4f1e-b468-ddae84f67d49', N'Hallmark Channel', N'#5A2F9A')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'2bba0029-7663-42cb-bf41-e2ee1b3a8495', N'ITV', N'#193284')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'10293999-b734-4cf6-b4ec-e44d81599215', N'JNN', N'#009944')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'98a2c754-3718-47cf-bcf4-ecbca16caaa8', N'Hulu', N'#1CE783')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'87a476b4-16d6-4268-862e-ef5244d3881c', N'Dice Media', N'#FF6589')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'8c15691c-54db-4ab7-88ac-f2554ee91d77', N'Disney Channel', N'#1A69CD')
+GO
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES (N'5c2b22a9-2403-4e30-97fb-fa223e97d479', N'Show TV', N'#8111F1')
+GO
+SET IDENTITY_INSERT [dbo].[WatchStatus] ON 
+
+GO
+INSERT [dbo].[WatchStatus] ([Id], [Status], [ColorCode]) VALUES (1, N'On Going', N'#4FD800')
+GO
+INSERT [dbo].[WatchStatus] ([Id], [Status], [ColorCode]) VALUES (2, N'Up-To-Date', N'#00B6FF')
+GO
+INSERT [dbo].[WatchStatus] ([Id], [Status], [ColorCode]) VALUES (3, N'Completed', N'#D80000')
+GO
+INSERT [dbo].[WatchStatus] ([Id], [Status], [ColorCode]) VALUES (4, N'To Watch', N'#ADAF00')
+GO
+SET IDENTITY_INSERT [dbo].[WatchStatus] OFF
+GO
