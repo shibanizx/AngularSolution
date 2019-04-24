@@ -20,7 +20,7 @@ namespace SeriesAPI.Models
         public int? EpisodeLength { get; set; }
         public double AddedOn { get; set; }
         public double? ModifiedOn { get; set; }
-        public string Rating { get; set; }
+        public RatingsEntity Rating { get; set; }
         public bool Favorite { get; set; }
         public int? Runtime { get; set; }
     }

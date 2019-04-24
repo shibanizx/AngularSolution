@@ -1,6 +1,12 @@
-﻿CREATE TABLE [dbo].[OnlineChannel] (
-    [Id]   UNIQUEIDENTIFIER DEFAULT (newid()) NOT NULL,
-    [Name] NVARCHAR (500)   NOT NULL,
-    CONSTRAINT [PK_OnlineChannel] PRIMARY KEY CLUSTERED ([Id] ASC)
-);
+﻿CREATE TABLE [dbo].[OnlineChannel](
+	[Id] [uniqueidentifier] NOT NULL,
+	[Name] [nvarchar](500) NOT NULL,
+ CONSTRAINT [PK_OnlineChannel] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
 
+
+GO
+ALTER TABLE [dbo].[OnlineChannel] ADD  DEFAULT (newid()) FOR [Id]

@@ -24,7 +24,7 @@ namespace SeriesAPI.Controllers
         [HttpGet]
         public async Task<IActionResult> GetShows()
         {
-            var showList = await _context.GetAllShows.FromSql(Resources.SqlQuery_GetShows)?.ToListAsync();
+            List<GetAllShows_Result> showList = await _context.GetAllShows.FromSql(Resources.SqlQuery_GetShows)?.ToListAsync();
 
             List<ShowEntity> shows = new List<ShowEntity>();
 
@@ -42,7 +42,7 @@ namespace SeriesAPI.Controllers
                     {
                         GenreId = genre.Id,
                         Genre = genre.Name
-                    }).ToList(),
+                    }).OrderBy(g => g.Genre).ToList(),
                     Language = new AudioLanguageEntity()
                     {
                         LanguageId = show.LanguageId,
@@ -61,7 +61,11 @@ namespace SeriesAPI.Controllers
                         ProductionHouse = show.ProductionHouse,
                         ColorCode = show.ProductionHouseColorCode
                     },
-                    Rating = HelperClass.GetRatingValues(show.Rating),
+                    Rating = new RatingsEntity()
+                    {
+                        Rating = show.RatingId,
+                        RatingText = show.RatingText
+                    },
                     Remarks = show.Remarks,
                     Runtime = show.EpisodeLength * show.TotalEpisodes,
                     ShowId = show.ShowId,
@@ -149,7 +153,7 @@ namespace SeriesAPI.Controllers
             show.Favorite = showEntity.Favorite;
             show.ModifiedOn = HelperClass.ConvertEpochToDateTime(showEntity.ModifiedOn.Value);
             show.NumberOfSeasons = showEntity.NumberOfSeasons;
-            show.Rating = Convert.ToInt32(HelperClass.GetRatings(showEntity.Rating));
+            show.Rating = Convert.ToInt32(HelperClass.GetRatings(showEntity.Rating.RatingText));
             show.Remarks = showEntity.Remarks;
             show.TotalEpisodes = showEntity.TotalEpisodes;
 

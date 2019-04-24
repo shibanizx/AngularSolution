@@ -18,10 +18,11 @@ namespace SeriesAPI.Repository
         public string WatchStatus { get; set; }
         public string WatchStatusColorCode { get; set; }
         public Guid OnlineChannelId { get; set; }
-
         public string OnlineChannel { get; set; }
         public Guid LanguageId { get; set; }
         public string Language { get; set; }
+        public int RatingId { get; set; }
+        public string RatingText { get; set; }
         public bool Ended { get; set; }
         public int NumberOfSeasons { get; set; }
         public string Genre { get; set; }

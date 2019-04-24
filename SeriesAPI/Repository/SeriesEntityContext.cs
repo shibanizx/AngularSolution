@@ -17,6 +17,7 @@ namespace SeriesAPI.Repository
         public virtual DbSet<OnlineChannel> OnlineChannel { get; set; }
         public virtual DbSet<AudioLanguage> AudioLanguage { get; set; }
         public virtual DbSet<WatchStatus> WatchStatus { get; set; }
+        public virtual DbSet<Ratings> Ratings { get; set; }
 
         public virtual DbSet<GetAllShows_Result> GetAllShows { get; set; }
 
