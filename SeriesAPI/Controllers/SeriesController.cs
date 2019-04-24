@@ -92,7 +92,7 @@ namespace SeriesAPI.Controllers
             if (showEntity.Language == null || showEntity.Language.LanguageId == null || showEntity.Language.LanguageId.Equals(Guid.Empty))
                 return BadRequest(Resources.ErrorMsg_InvalidLanguageId);
 
-            if (showEntity.WatchStatus == null || showEntity.WatchStatus.WatchStatusId == 0 || showEntity.WatchStatus.WatchStatusId.Equals(Guid.Empty))
+            if (showEntity.WatchStatus == null || showEntity.WatchStatus.WatchStatusId == 0 )
                 return BadRequest(Resources.ErrorMsg_InvalidStatusId);
 
             if (showEntity.OnlineChannel == null || showEntity.OnlineChannel.OnlineChannelId == null || showEntity.OnlineChannel.OnlineChannelId.Equals(Guid.Empty))
