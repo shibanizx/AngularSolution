@@ -27,6 +27,10 @@ ALTER TABLE [dbo].[Show]  WITH CHECK ADD  CONSTRAINT [FK_Show_Status] FOREIGN KE
 REFERENCES [dbo].[WatchStatus] ([Id])
 GO
 
+ALTER TABLE [dbo].[Show]  WITH CHECK ADD  CONSTRAINT [FK_Show_Ratings] FOREIGN KEY([Rating])
+REFERENCES [dbo].[Ratings] ([Id])
+GO
+
 ALTER TABLE [dbo].[Show] CHECK CONSTRAINT [FK_Show_Status]
 GO
 ALTER TABLE [dbo].[Show]  WITH CHECK ADD  CONSTRAINT [FK_Show_ProductionHouse] FOREIGN KEY([ProductionHouseId])
