@@ -1,6 +1,7 @@
 ﻿CREATE TABLE [dbo].[Ratings](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[Value] [nvarchar](200) NOT NULL,
+	[ColorCode] [nvarchar](8),
  CONSTRAINT [PK_Rating] PRIMARY KEY CLUSTERED 
 (
 	[Id] ASC

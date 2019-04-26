@@ -18,15 +18,5 @@ namespace SeriesAPI.Common
         {
             return _epoch.AddMilliseconds(timeEpoch);
         }
-
-        public static string GetRatingValues(int rating)
-        {
-            return Resources.Dictionary_Ratings.GetValueOrDefault(rating);
-        }
-
-        public static int GetRatings(string ratingValue)
-        {
-            return Resources.Dictionary_Ratings.FirstOrDefault(r => r.Value.Equals(ratingValue)).Key;
-        }
     }
 }

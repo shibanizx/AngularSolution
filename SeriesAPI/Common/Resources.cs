@@ -32,17 +32,5 @@ namespace SeriesAPI.Common
 
         #endregion
 
-        #region Dictionary Constants
-
-        public static Dictionary<int, string> Dictionary_Ratings = new Dictionary<int, string>()
-        {
-            {1, "Voluntary Suffocation" },
-            {2, "Time-Pass" },
-            {3, "Watchable" },
-            {4, "Pretty Good" },
-            {5, "Recommended" }
-        };        
-
-        #endregion
     }
 }

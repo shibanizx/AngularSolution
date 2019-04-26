@@ -64,7 +64,8 @@ namespace SeriesAPI.Controllers
                     Rating = new RatingsEntity()
                     {
                         Rating = show.RatingId,
-                        RatingText = show.RatingText
+                        RatingText = show.RatingText,
+                        RatingColorCode = show.RatingColorCode
                     },
                     Remarks = show.Remarks,
                     Runtime = show.EpisodeLength * show.TotalEpisodes,
@@ -119,7 +120,7 @@ namespace SeriesAPI.Controllers
                 Favorite = showEntity.Favorite,
                 ModifiedOn = HelperClass.ConvertEpochToDateTime(showEntity.ModifiedOn.Value),
                 NumberOfSeasons = showEntity.NumberOfSeasons,
-                Rating = Convert.ToInt32(showEntity.Rating),
+                Rating = showEntity.Rating.Rating,
                 Remarks = showEntity.Remarks,
                 TotalEpisodes = showEntity.TotalEpisodes
             };
@@ -153,7 +154,7 @@ namespace SeriesAPI.Controllers
             show.Favorite = showEntity.Favorite;
             show.ModifiedOn = HelperClass.ConvertEpochToDateTime(showEntity.ModifiedOn.Value);
             show.NumberOfSeasons = showEntity.NumberOfSeasons;
-            show.Rating = Convert.ToInt32(HelperClass.GetRatings(showEntity.Rating.RatingText));
+            show.Rating = showEntity.Rating.Rating;
             show.Remarks = showEntity.Remarks;
             show.TotalEpisodes = showEntity.TotalEpisodes;
 

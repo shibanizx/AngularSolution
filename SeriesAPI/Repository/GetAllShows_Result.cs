@@ -23,6 +23,7 @@ namespace SeriesAPI.Repository
         public string Language { get; set; }
         public int RatingId { get; set; }
         public string RatingText { get; set; }
+        public string RatingColorCode { get; set; }
         public bool Ended { get; set; }
         public int NumberOfSeasons { get; set; }
         public string Genre { get; set; }
