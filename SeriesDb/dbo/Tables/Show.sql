@@ -13,7 +13,7 @@
 	[EpisodeLength] [int] NULL,
 	[AddedOn] [datetime] NOT NULL,
 	[ModifiedOn] [datetime] NULL,
-	[Rating] [int] NULL,
+	[Rating] [int] NOT NULL,
 	[Favorite] [bit] NOT NULL,
  CONSTRAINT [PK_Show] PRIMARY KEY CLUSTERED 
 (
