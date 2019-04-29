@@ -78,4 +78,7 @@
   <ItemGroup>
     <None Include="Insert Script Generator.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Insert Script for Show.sql" />
+  </ItemGroup>
 </Project>
