@@ -20,6 +20,7 @@ namespace SeriesAPI.Repository
         public virtual DbSet<Ratings> Ratings { get; set; }
 
         public virtual DbSet<GetAllShows_Result> GetAllShows { get; set; }
+        public virtual DbSet<GetStatusCount_Result> GetStatusCount { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
