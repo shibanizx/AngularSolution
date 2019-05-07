@@ -30,6 +30,7 @@ namespace SeriesAPI.Common
         public static string SqlQuery_DeleteShow = "EXEC DeleteShow {0}";
         public static string SqlQuery_GetShows = "GetAllShows";
         public static string SqlQuery_GetStatusCount = "GetStatusCount";
+        public static string SqlQuery_GetFavoritesByNetwork = "GetFavoritesByNetwork";
 
         #endregion
 

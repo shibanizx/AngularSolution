@@ -21,12 +21,13 @@ namespace SeriesAPI.Repository
 
         public virtual DbSet<GetAllShows_Result> GetAllShows { get; set; }
         public virtual DbSet<GetStatusCount_Result> GetStatusCount { get; set; }
+        public virtual DbSet<GetFavoritesByNetwork_Result> GetFavoritesByNetwork { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
-                // optionsBuilder.UseSqlServer(ConfigurationManager.ConnectionStrings["SeriesDatabase"].ConnectionString);
+                // oClass.csptionsBuilder.UseSqlServer(ConfigurationManager.ConnectionStrings["SeriesDatabase"].ConnectionString);
             }
         }
 

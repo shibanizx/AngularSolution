@@ -28,5 +28,12 @@ namespace SeriesAPI.Controllers
             return Ok(await _context.GetStatusCount.FromSql(Resources.SqlQuery_GetStatusCount)?.ToListAsync());
         }
 
+        [HttpGet]
+        [Route("favoritesByNetwork")]
+        public async Task<IActionResult> GetFavoritesByProductionHouse()
+        {
+            return Ok(await _context.GetFavoritesByNetwork.FromSql(Resources.SqlQuery_GetFavoritesByNetwork)?.ToListAsync());
+        }
+
     }
 }
