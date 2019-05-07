@@ -1,8 +1,9 @@
-﻿CREATE PROCEDURE [dbo].[GetStatusCount]
+﻿
+CREATE PROCEDURE [dbo].[GetStatusCount]  
 AS  
 BEGIN  
    
- SELECT w.Status AS Status,
+ SELECT w.Status AS WatchStatus,
 	COUNT(s.ShowId) AS ShowCount,
 	w.ColorCode AS ColorCode
 	FROM WatchStatus w 
@@ -11,5 +12,4 @@ BEGIN
 	GROUP BY w.Status, w.ColorCode
 	ORDER BY Status
 END
-
 

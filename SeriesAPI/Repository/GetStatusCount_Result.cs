@@ -9,7 +9,7 @@ namespace SeriesAPI.Repository
     public class GetStatusCount_Result
     {
         [Key]
-        public string Status { get; set; }
+        public string WatchStatus { get; set; }
         public int ShowCount { get; set; }
         public string ColorCode { get; set; }
     }

@@ -76,6 +76,7 @@
     <Build Include="dbo\Tables\Ratings.sql" />
     <Build Include="dbo\Stored Procedures\GetStatusCount.sql" />
     <Build Include="dbo\Stored Procedures\GetFavoritesByNetwork.sql" />
+    <Build Include="dbo\Stored Procedures\GetNetworkBasedShowData.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Insert Script Generator.sql" />
