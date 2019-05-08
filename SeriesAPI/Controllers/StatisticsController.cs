@@ -64,5 +64,31 @@ namespace SeriesAPI.Controllers
             return Ok(genreBasedNetworkData);
         }
 
+        [HttpGet]
+        [Route("networkBasedEpisodeData")]
+        public async Task<IActionResult> GetNetworkBasedEpisodeData()
+        {
+            var networkBasedEpisodeData = from shows in await _context.GetNetworkBasedShowData.FromSql(Resources.SqlQuery_GetNetworkBasedShowData)?.ToListAsync()
+                       group new { shows.ShowId, shows.ShowName, shows.TotalEpisodes }
+                       by new
+                       {
+                           shows.ProductionHouseId,
+                           shows.ProductionHouse,
+                           shows.ProductionHouseColorCode
+                       } into grp
+                       select new
+                       {
+                           grp.Key.ProductionHouse,
+                           ColorCode = grp.Key.ProductionHouseColorCode,
+                           ShowList = grp.Select(s => new
+                           {
+                               s.ShowName,
+                               s.TotalEpisodes
+                           }).ToList()
+                       };
+
+            return Ok(networkBasedEpisodeData);
+        }
+
     }
 }

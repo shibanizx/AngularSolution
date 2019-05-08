@@ -10,9 +10,11 @@ namespace SeriesAPI.Repository
     {
         [Key]
         public Guid ShowId { get; set; }
+        public string ShowName { get; set; }
         public Guid ProductionHouseId { get; set; }
         public string ProductionHouse { get; set; }
         public string ProductionHouseColorCode { get; set; }
         public string Genre { get; set; }
+        public int TotalEpisodes { get; set; }
     }
 }
