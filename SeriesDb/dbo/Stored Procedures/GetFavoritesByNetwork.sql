@@ -9,4 +9,5 @@ BEGIN
 		JOIN ProductionHouse p ON s.ProductionHouseId = p.Id
 	WHERE s.Favorite = 1
 	GROUP BY p.Name, p.ColorCode
+	ORDER BY FavoriteCount
 END

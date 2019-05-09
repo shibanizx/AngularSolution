@@ -28,6 +28,14 @@ IF NOT EXISTS(SELECT [Id] FROM [dbo].[AudioLanguage] WHERE [Language]='Turkish')
 BEGIN 
 INSERT [dbo].[AudioLanguage] ([Id], [Language]) VALUES(N'b842ca46-bc57-4681-8373-da9f2881ffe9', N'Turkish') END 
 GO
+IF NOT EXISTS(SELECT [Id] FROM [dbo].[AudioLanguage] WHERE [Language]='Italian')
+BEGIN
+INSERT [dbo].[AudioLanguage] ([Id], [Language]) VALUES(N'220833f4-d3b1-4ff3-9a57-14649d48ab11', N'Italian') END
+GO
+IF NOT EXISTS(SELECT [Id] FROM [dbo].[AudioLanguage] WHERE [Language]='Catalan')
+BEGIN
+INSERT [dbo].[AudioLanguage] ([Id], [Language]) VALUES(N'9bc4a818-1800-413d-b3dd-1879106105cf', N'Catalan') END
+GO
 
 -- END OF AUDIO LANGUAGE SCRIPT
 
@@ -207,6 +215,30 @@ GO
 IF NOT EXISTS(SELECT [Id] FROM [dbo].[Genre] WHERE [Name]='Psychological Horror') 
 BEGIN 
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES(43, N'Psychological Horror') END 
+GO
+IF NOT EXISTS(SELECT [Id] FROM [dbo].[Genre] WHERE [Name]='Western')
+BEGIN
+INSERT [dbo].[Genre] ([Id], [Name]) VALUES(44, N'Western') END
+GO
+IF NOT EXISTS(SELECT [Id] FROM [dbo].[Genre] WHERE [Name]='Alternate History')
+BEGIN
+INSERT [dbo].[Genre] ([Id], [Name]) VALUES(45, N'Alternate History') END
+GO
+IF NOT EXISTS(SELECT [Id] FROM [dbo].[Genre] WHERE [Name]='Tragedy')
+BEGIN
+INSERT [dbo].[Genre] ([Id], [Name]) VALUES(46, N'Tragedy') END
+GO
+IF NOT EXISTS(SELECT [Id] FROM [dbo].[Genre] WHERE [Name]='Zombie Apocalypse')
+BEGIN
+INSERT [dbo].[Genre] ([Id], [Name]) VALUES(47, N'Zombie Apocalypse') END
+GO
+IF NOT EXISTS(SELECT [Id] FROM [dbo].[Genre] WHERE [Name]='Espionage')
+BEGIN
+INSERT [dbo].[Genre] ([Id], [Name]) VALUES(48, N'Espionage') END
+GO
+IF NOT EXISTS(SELECT [Id] FROM [dbo].[Genre] WHERE [Name]='Magic Realism')
+BEGIN
+INSERT [dbo].[Genre] ([Id], [Name]) VALUES(49, N'Magic Realism') END
 GO
 SET IDENTITY_INSERT [dbo].[Genre] OFF
 GO
@@ -424,7 +456,10 @@ IF NOT EXISTS(SELECT [Id] FROM [dbo].[ProductionHouse] WHERE [Name]='Show TV')
 BEGIN
 INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES(N'5c2b22a9-2403-4e30-97fb-fa223e97d479', N'Show TV', N'#8111F1') END 
 GO
-
+IF NOT EXISTS(SELECT [Id] FROM [dbo].[ProductionHouse] WHERE [Name]='TV3')
+BEGIN
+INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES(N'259df400-1147-4c00-99db-6d89efa1436f', N'TV3', N'#FFFFFF') END
+GO
 -- END OF PRODUCTION HOUSE SCRIPT
 
 -- START OF RATINGS SCRIPT
