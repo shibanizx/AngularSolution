@@ -145,12 +145,12 @@ namespace SeriesAPI.Controllers
             show.ShowName = showEntity.ShowName;
             show.StatusId = showEntity.WatchStatus.WatchStatusId;
             show.ProductionHouseId = showEntity.ProductionHouse.ProductionHouseId;
-            //show.OnlineChannelId = showEntity.OnlineChannel.OnlineChannelId;
-            //show.LanguageId = showEntity.Language.LanguageId;
+            show.OnlineChannelId = showEntity.OnlineChannel.OnlineChannelId;
+            show.LanguageId = showEntity.Language.LanguageId;
             show.Genre = string.Join(",", showEntity.Genre.OrderBy(g => g.GenreId).Select(t => t.GenreId).ToList());
             //show.AddedOn = HelperClass.ConvertEpochToDateTime(showEntity.AddedOn);
             show.Ended = showEntity.Ended;
-            //show.EpisodeLength = showEntity.EpisodeLength;
+            show.EpisodeLength = showEntity.EpisodeLength;
             show.Favorite = showEntity.Favorite;
             show.ModifiedOn = HelperClass.ConvertEpochToDateTime(showEntity.ModifiedOn.Value);
             show.NumberOfSeasons = showEntity.NumberOfSeasons;
