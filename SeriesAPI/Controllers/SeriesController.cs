@@ -81,7 +81,7 @@ namespace SeriesAPI.Controllers
                 }).ToList();
             }
 
-            return Ok(shows);
+            return Ok(shows.OrderBy(s => s.ShowName));  
         }
 
         [HttpPost]

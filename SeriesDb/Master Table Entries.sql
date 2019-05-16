@@ -44,7 +44,7 @@ GO
 SET IDENTITY_INSERT [dbo].[Genre] ON 
 
 GO
-	IF NOT EXISTS(SELECT [Id] FROM [dbo].[Genre] WHERE [Name]='Animation') 
+IF NOT EXISTS(SELECT [Id] FROM [dbo].[Genre] WHERE [Name]='Animation') 
 BEGIN 
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES(1, N'Animation') END 
 GO
@@ -239,6 +239,18 @@ GO
 IF NOT EXISTS(SELECT [Id] FROM [dbo].[Genre] WHERE [Name]='Magic Realism')
 BEGIN
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES(49, N'Magic Realism') END
+GO
+IF NOT EXISTS(SELECT [Id] FROM [dbo].[Genre] WHERE [Name]='Philosophical Fiction')
+BEGIN
+INSERT [dbo].[Genre] ([Id], [Name]) VALUES(50, N'Philosophical Fiction') END
+GO
+IF NOT EXISTS(SELECT [Id] FROM [dbo].[Genre] WHERE [Name]='Dystopia')
+BEGIN
+INSERT [dbo].[Genre] ([Id], [Name]) VALUES(51, N'Dystopia') END
+GO
+IF NOT EXISTS(SELECT [Id] FROM [dbo].[Genre] WHERE [Name]='Military')
+BEGIN
+INSERT [dbo].[Genre] ([Id], [Name]) VALUES(52, N'Military') END
 GO
 SET IDENTITY_INSERT [dbo].[Genre] OFF
 GO
