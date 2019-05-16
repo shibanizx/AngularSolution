@@ -24,7 +24,7 @@ namespace SeriesAPI.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllOnlineChannels()
         {
-            return Ok(await _context.OnlineChannel.Select(c => new OnlineChannelEntity
+            return Ok(await _context.OnlineChannel.Select(c => new 
             { OnlineChannelId = c.Id, OnlineChannel = c.Name }).OrderBy(c => c.OnlineChannel).ToListAsync());
         }
     }

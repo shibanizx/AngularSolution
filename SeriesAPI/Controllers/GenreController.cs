@@ -24,7 +24,7 @@ namespace SeriesAPI.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllGenre()
         {
-            return Ok(await _context.Genre.Select(g => new GenreEntity
+            return Ok(await _context.Genre.Select(g => new
             { GenreId = g.Id, Genre = g.Name }).OrderBy(g => g.Genre).ToListAsync());
         }
     }

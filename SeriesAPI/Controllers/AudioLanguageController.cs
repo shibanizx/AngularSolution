@@ -23,7 +23,7 @@ namespace SeriesAPI.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllLanguages()
         {
-            return Ok(await _context.AudioLanguage.Select(l => new AudioLanguageEntity
+            return Ok(await _context.AudioLanguage.Select(l => new 
             { LanguageId = l.Id, Language = l.Language }).OrderBy(l => l.Language).ToListAsync());
         }
     }

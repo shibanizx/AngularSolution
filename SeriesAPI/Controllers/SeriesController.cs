@@ -30,7 +30,7 @@ namespace SeriesAPI.Controllers
 
             if (showList.Any())
             {
-                showList.ForEach(show => shows.Add(new ShowEntity()
+                shows = showList.ToList().Select(show => new ShowEntity
                 {
                     AddedOn = HelperClass.ConvertDateTimeToEpoch(show.AddedOn),
                     Ended = show.Ended,
@@ -38,30 +38,30 @@ namespace SeriesAPI.Controllers
                     Favorite = show.Favorite,
                     Genre = _context.Genre.Where(g => show.Genre.Split(',', StringSplitOptions.None)
                     .Contains(g.Id.ToString()))
-                    .Select(genre => new GenreEntity()
+                    .Select(genre => new GenreEntity
                     {
                         GenreId = genre.Id,
                         Genre = genre.Name
                     }).OrderBy(g => g.Genre).ToList(),
-                    Language = new AudioLanguageEntity()
+                    Language = new AudioLanguageEntity
                     {
                         LanguageId = show.LanguageId,
                         Language = show.Language
                     },
                     ModifiedOn = HelperClass.ConvertDateTimeToEpoch(show.ModifiedOn.Value),
                     NumberOfSeasons = show.NumberOfSeasons,
-                    OnlineChannel = new OnlineChannelEntity()
+                    OnlineChannel = new OnlineChannelEntity
                     {
                         OnlineChannelId = show.OnlineChannelId,
                         OnlineChannel = show.OnlineChannel
                     },
-                    ProductionHouse = new ProductionHouseEntity()
+                    ProductionHouse = new ProductionHouseEntity
                     {
                         ProductionHouseId = show.ProductionHouseId,
                         ProductionHouse = show.ProductionHouse,
                         ColorCode = show.ProductionHouseColorCode
                     },
-                    Rating = new RatingsEntity()
+                    Rating = new RatingsEntity
                     {
                         Rating = show.RatingId,
                         RatingText = show.RatingText,
@@ -72,17 +72,16 @@ namespace SeriesAPI.Controllers
                     ShowId = show.ShowId,
                     ShowName = show.ShowName,
                     TotalEpisodes = show.TotalEpisodes,
-                    WatchStatus = new WatchStatusEntity()
+                    WatchStatus = new WatchStatusEntity
                     {
                         WatchStatusId = show.WatchStatusId,
                         WatchStatus = show.WatchStatus,
                         ColorCode = show.WatchStatusColorCode
                     }
-                })
-            );
+                }).ToList();
             }
 
-            return Ok(shows.OrderBy(s => s.ShowName));
+            return Ok(shows);
         }
 
         [HttpPost]

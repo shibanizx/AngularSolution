@@ -24,7 +24,7 @@ namespace SeriesAPI.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllProductionHouses()
         {
-            return Ok(await _context.ProductionHouse.Select(p => new ProductionHouseEntity
+            return Ok(await _context.ProductionHouse.Select(p => new 
             { ProductionHouseId = p.Id, ProductionHouse = p.Name, ColorCode = p.ColorCode }).OrderBy(p => p.ProductionHouse).ToListAsync());
         }
     }

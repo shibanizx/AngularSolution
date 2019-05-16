@@ -24,8 +24,8 @@ namespace SeriesAPI.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllWatchStatus()
         {
-            return Ok(await _context.WatchStatus.Select(s => new WatchStatusEntity
-            { WatchStatusId = s.Id, WatchStatus = s.Status, ColorCode = s.ColorCode }).OrderBy(s => s.WatchStatus).ToListAsync());
+            return Ok(await _context.WatchStatus.Select(s => new 
+            { WatchStatusId = s.Id, WatchStatus = s.Status, ColorCode = s.ColorCode, Checked = s.Status != "To Watch" }).OrderBy(s => s.WatchStatus).ToListAsync());
         }
     }
 }

@@ -24,4 +24,42 @@ namespace SeriesAPI.Models
         public bool Favorite { get; set; }
         public int? Runtime { get; set; }
     }
+
+    public class WatchStatusEntity
+    {
+        public int WatchStatusId { get; set; }
+        public string WatchStatus { get; set; }
+        public string ColorCode { get; set; }
+    }
+
+    public class ProductionHouseEntity
+    {
+        public Guid ProductionHouseId { get; set; }
+        public string ProductionHouse { get; set; }
+        public string ColorCode { get; set; }
+    }
+
+    public class OnlineChannelEntity
+    {
+        public Guid OnlineChannelId { get; set; }
+        public string OnlineChannel { get; set; }
+    }
+    public class AudioLanguageEntity
+    {
+        public Guid LanguageId { get; set; }
+        public string Language { get; set; }
+    }
+
+    public class GenreEntity
+    {
+        public int GenreId { get; set; }
+        public string Genre { get; set; }
+    }
+
+    public class RatingsEntity
+    {
+        public int Rating { get; set; }
+        public string RatingText { get; set; }
+        public string RatingColorCode { get; set; }
+    }
 }
