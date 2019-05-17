@@ -4,10 +4,11 @@ namespace SeriesAPI.Common
 {
     public class Resources
     {
-        #region
+        #region Error Messages
 
         public static string ErrorMsg_InvalidShowId = "Update failed.Incorrect Show Id.";
         public static string ErrorMsg_ShowModelNull = "Show model is null.";
+        public static string ErrorMsg_ShowNameDuplicate = "This show already exists";
         public static string ErrorMsg_ShowNotFound = "Update failed.Show not found.";
         public static string ErrorMsg_InvalidProductionId = "Production House Id is null.";
         public static string ErrorMsg_InvalidChannelId = "Online Channel Id is null.";

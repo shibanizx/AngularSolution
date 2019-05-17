@@ -22,7 +22,7 @@ namespace SeriesAPI.Controllers
         public async Task<IActionResult> GetAllRatings()
         {
             return Ok(await _context.Ratings.Select(g => new
-            { Rating = g.Id, RatingText = g.Value }).OrderBy(g => g.Rating).ToListAsync());
+            { Rating = g.Id, RatingText = g.Value, ColorCode = g.ColorCode }).OrderBy(g => g.Rating).ToListAsync());
         }
     }
 }

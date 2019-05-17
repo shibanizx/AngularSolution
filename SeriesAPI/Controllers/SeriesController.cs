@@ -87,8 +87,11 @@ namespace SeriesAPI.Controllers
         [HttpPost]
         public async Task<IActionResult> AddShow([FromBody] ShowEntity showEntity)
         {
-            if (showEntity == null)
+            if (showEntity == null || showEntity.ShowName == null)
                 return BadRequest(Resources.ErrorMsg_ShowModelNull);
+
+            if (_context.Show.Any(s => s.ShowName == showEntity.ShowName))
+                return BadRequest(Resources.ErrorMsg_ShowNameDuplicate);
 
             if (showEntity.ProductionHouse == null || showEntity.ProductionHouse.ProductionHouseId == null || showEntity.ProductionHouse.ProductionHouseId.Equals(Guid.Empty))
                 return BadRequest(Resources.ErrorMsg_InvalidProductionId);

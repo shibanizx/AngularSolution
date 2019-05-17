@@ -252,6 +252,18 @@ IF NOT EXISTS(SELECT [Id] FROM [dbo].[Genre] WHERE [Name]='Military')
 BEGIN
 INSERT [dbo].[Genre] ([Id], [Name]) VALUES(52, N'Military') END
 GO
+IF NOT EXISTS(SELECT [Id] FROM [dbo].[Genre] WHERE [Name]='Urban Fantasy')
+BEGIN
+INSERT [dbo].[Genre] ([Id], [Name]) VALUES(53, N'Urban Fantasy') END
+GO
+IF NOT EXISTS(SELECT [Id] FROM [dbo].[Genre] WHERE [Name]='Martial Arts')
+BEGIN
+INSERT [dbo].[Genre] ([Id], [Name]) VALUES(54, N'Martial Arts') END
+GO
+IF NOT EXISTS(SELECT [Id] FROM [dbo].[Genre] WHERE [Name]='Blaxploitation')
+BEGIN
+INSERT [dbo].[Genre] ([Id], [Name]) VALUES(55, N'Blaxploitation') END
+GO
 SET IDENTITY_INSERT [dbo].[Genre] OFF
 GO
 
