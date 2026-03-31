@@ -1,4 +1,4 @@
-﻿
+-- The following script generates the select statements for all master data in a database. Results of this script can be found in Master Table Entries.sql﻿
 SELECT 'IF NOT EXISTS(SELECT [Id] FROM [dbo].[ProductionHouse] WHERE [Name]=''' + Name + ''')' + CHAR(10) + 'BEGIN' + CHAR(10) + 'INSERT [dbo].[ProductionHouse] ([Id], [Name], [ColorCode]) VALUES(N''' + LOWER(CONVERT(NVARCHAR(38), Id)) + ''', N''' + Name + ''', N''' + ColorCode + ''')' + CHAR(10) + 'END' + CHAR(10) + 'GO' FROM ProductionHouse 
 
 SELECT 'IF NOT EXISTS(SELECT [Id] FROM [dbo].[OnlineChannel] WHERE [Name]=''' + Name + ''')' + CHAR(10) + 'BEGIN' + CHAR(10) + 'INSERT [dbo].[OnlineChannel] ([Id], [Name]) VALUES(N''' + LOWER(CONVERT(NVARCHAR(38), Id)) + ''', N''' + Name + ''')' + CHAR(10) + 'END' + CHAR(10) + 'GO' FROM OnlineChannel 
